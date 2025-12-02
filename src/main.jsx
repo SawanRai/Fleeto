@@ -8,6 +8,8 @@ import Partner from './components/Partner/Partner.jsx'
 import Book from './components/Book/Book.jsx'
 import About from './components/About/About.jsx'
 import Layout from './Layout.jsx'
+import Login from './components/Login/Login.jsx'
+import Signup from './components/SignUp/Signup.jsx'
 const router=createBrowserRouter([
   {
     path:'/',
@@ -28,7 +30,16 @@ const router=createBrowserRouter([
       {
         path:"about",
         element:<About/>
+      },
+      {
+        path:"login",
+        element:<Login/>
+      },
+      {
+        path:"signup",
+        element:<Signup/>
       }
+      
       
     ]
   }
