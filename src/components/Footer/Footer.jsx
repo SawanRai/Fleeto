@@ -34,8 +34,8 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/track" className="text-sm opacity-90 text-amber-50 hover:opacity-100 transition-opacity">
-                                    Track Order
+                                <Link to="/book" className="text-sm opacity-90 text-amber-50 hover:opacity-100 transition-opacity">
+                                    Book a Shipment
                                 </Link>
                             </li>
                             <li>

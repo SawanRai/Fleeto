@@ -59,13 +59,13 @@ export default function Home() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
                         <Link
-                            to="#"
+                            to="/book"
                             className="text-blue-500 bg-amber-50 hover:bg-blue-500 hover:text-amber-50 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Book Now
                         </Link>
                         <Link
-                            to="#"
+                            to="/login"
                             className="text-blue-500 bg-amber-50 hover:bg-blue-500 hover:text-amber-50 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Track Shipment
@@ -116,7 +116,7 @@ export default function Home() {
                                 </li>
                             </ul>
                             <Link
-                                to="#"
+                                to="/login"
                                 className="text-white bg-blue-700 hover:bg-gray-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                             >
                                 Track Your Order
@@ -141,17 +141,12 @@ export default function Home() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
-                            to="#"
+                            to="/signup"
                             className="text-white bg-blue-700 hover:bg-gray-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Get Started Now
                         </Link>
-                        <Link
-                            to="#"
-                            className="text-white bg-blue-700 hover:bg-gray-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
-                        >
-                            Contact Sales
-                        </Link>
+                        
                     </div>
                 </div>
             </section>

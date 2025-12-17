@@ -10,6 +10,9 @@ import About from './components/About/About.jsx'
 import Layout from './Layout.jsx'
 import Login from './components/Login/Login.jsx'
 import Signup from './components/SignUp/Signup.jsx'
+import EnterpriseDashboard from './User Type/Enterprise/Dashboard.jsx'
+import PartnerDashboard from './User Type/Partner/Dashboard.jsx'
+
 const router=createBrowserRouter([
   {
     path:'/',
@@ -38,8 +41,15 @@ const router=createBrowserRouter([
       {
         path:"signup",
         element:<Signup/>
+      },
+      {
+        path:"entdash",
+        element:<EnterpriseDashboard/>
+      },
+      {
+        path:"delidash",
+        element:<PartnerDashboard/>
       }
-      
       
     ]
   }
